@@ -4,18 +4,11 @@ Project Overview
 The goal of this project is to perform image segmentation, where the model identifies and separates different regions or objects within an image. The provided Jupyter Notebook (Segmentation.ipynb) loads a pre-trained VGG19 model, processes training images and their corresponding masks, and prepares the data for segmentation tasks.
 Key components:
 
-Dataset: Images and their corresponding masks stored in the images/train_data and images/masks directories.
-Model: Pre-trained VGG19 with frozen layers for feature extraction.
-Preprocessing: Images and masks are resized to 512x512 pixels and converted to appropriate formats (RGB for images, grayscale for masks).
-Output: Visualization of segmentation predictions using Matplotlib.
+1- Dataset: Images and their corresponding masks stored in the images/train_data and images/masks directories.
+2- Model: Pre-trained VGG19 with frozen layers for feature extraction.
+3- Preprocessing: Images and masks are resized to 512x512 pixels and converted to appropriate formats (RGB for images, grayscale for masks).
+4- Output: Visualization of segmentation predictions using Matplotlib.
 
-Repository Structure
-├── images/
-│   ├── train_data/     # Directory containing training images (.png)
-│   ├── masks/          # Directory containing mask images (.png)
-│   └── test_data/      # Directory for test images (if applicable)
-├── Segmentation.ipynb  # Main Jupyter Notebook with the segmentation code
-└── README.md           # Project documentation (this file)
 
 # Prerequisites
 To run this project, you need the following dependencies installed:
