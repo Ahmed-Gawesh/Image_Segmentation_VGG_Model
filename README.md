@@ -5,8 +5,11 @@ The goal of this project is to perform image segmentation, where the model ident
 Key components:
 
 1- Dataset: Images and their corresponding masks stored in the images/train_data and images/masks directories.
+
 2- Model: Pre-trained VGG19 with frozen layers for feature extraction.
+
 3- Preprocessing: Images and masks are resized to 512x512 pixels and converted to appropriate formats (RGB for images, grayscale for masks).
+
 4- Output: Visualization of segmentation predictions using Matplotlib.
 
 
